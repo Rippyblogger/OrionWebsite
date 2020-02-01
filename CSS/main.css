@@ -1,0 +1,154 @@
+@import url("desktop.css");
+@import url("ipad.css");
+@import url("mobile.css");
+
+body {
+    background-color: white;
+}
+
+
+/*page layout*/
+
+
+
+/*header layout*/
+
+
+.logo {
+    list-style: none;
+}
+
+.logotext {
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 50px;
+    color: #5d001e;
+    text-decoration: none;
+}
+
+.logotext a {
+    color: #5d001e;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+    margin: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 15px;
+    /*background-color: white;*/
+    color: #5d001e;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #5d001e;
+}
+
+nav ul li a {
+    color: #5d001e;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/*Content layout*/
+
+figcaption{
+    text-align: center;
+}
+
+
+
+
+.btn {
+    border: none;
+    background-color: #9a1750;
+    color: white;
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+.content h1 {
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    color: #9a1750;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    color: #9b1750;
+    margin-bottom: -15px;
+}
+
+.content h3 {
+    color: grey;
+}
+
+.content a {
+    text-decoration: none;
+    color: #9a1750;
+}
+
+.content a:hover {
+    color: #9a1750;
+    text-decoration: underline;
+}
+
+
+/*Sidebar layout*/
+
+.sidebar {
+    grid-area: sd;
+    display: flex;
+   
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: -3px 0px 2px lightgrey;
+}
+
+.sidebar ul li {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5d001e;
+    list-style: none;
+    
+}
+
+.subscribe {
+    padding-left: 10px;
+}
+
+
+/*Footer layout*/
+
+.footerclass {
+    grid-area: ft;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: -8px 0px 4px lightgrey;
+    /*border: 2px solid red;*/
+    color: white;
+    background-color: #5d001e;
+    font-family: 'Montserrat', sans-serif;
+}
